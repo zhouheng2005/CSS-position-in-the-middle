@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>心</title>
+    <style>
+    p {
+        padding: 0px;
+        margin: 0px;
+        background: #ccc;
+        color: #fff;
+    }
+  /* <!-- 水平居中定位 -->*/
+    #wrapper {
+        position: relative;
+        height: 200px;
+        background: #00bcd4;
+    }
+
+    #box {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+     /* <!-- 垂直居中定位 -->*/
+    #wrapperzz {
+        position: relative;
+        height: 200px;
+        background: #03a9f4;
+    }
+
+    #boxzz {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+/* <!-- 水平垂直居中定位 -->*/
+    #wrapperzzz {
+        position: relative;
+        height: 200px;
+        background: #2196f3;
+    }
+
+    #boxzzz {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 水平居中定位 -->
+    <div id='wrapper'>
+        <div id='box'>
+            <p>transform水平居中定位</p>
+        </div>
+    </div>
+    <!-- 垂直居中定位 -->
+    <div id='wrapperzz'>
+        <div id='boxzz'>
+            <p>transform垂直居中定位</p>
+        </div>
+    </div>
+    <!-- 水平垂直居中定位 -->
+    <div id='wrapperzzz'>
+        <div id='boxzzz'>
+            <p>transform水平垂直居中定位</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+</script>
+
+</html>
